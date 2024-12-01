@@ -12,37 +12,69 @@ El objetivo de estos ejercicios es desarrollar habilidades prácticas en SQL,
 utilizando MySQL como sistema de gestión de bases de datos, y abordar distintos
 niveles de dificultad, desde consultas básicas hasta operaciones avanzadas.
 
+¡Tienes razón! Disculpa la omisión. A continuación, actualizo el contenido
+incluyendo los conceptos de entidad-relación, cómo crear mapas conceptuales y
+las tablas intermedias.
+
+---
+
 ## 📂 Contenido
 
-Aquí están los temas que se irán cubriendo a lo largo del curso:
+Aquí están los temas que hemos cubierto hasta ahora en el curso:
 
 1. **Gestión de Bases de Datos**:
+
    - Creación y uso de bases de datos (`CREATE DATABASE`, `USE`)
-2. **Consultas Básicas**:
-   - Selección de datos (`SELECT`)
-   - Filtrado de registros (`WHERE`)
-   - Ordenación de datos (`ORDER BY`)
-3. **Funciones de Agregación**:
-   - Cálculos de suma, promedio, conteo (`SUM`, `AVG`, `COUNT`)
-   - Agrupación de datos (`GROUP BY`)
-4. **Subconsultas**:
-   - Consultas anidadas
-   - Operadores `IN`, `ANY`, `ALL`
-5. **Uniones de Tablas (JOINs)**:
-   - `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`
-6. **Manipulación de Datos**:
-   - Inserción, actualización y eliminación de datos (`INSERT`, `UPDATE`,
-     `DELETE`)
-7. **Gestión de Transacciones**:
-   - `COMMIT` y `ROLLBACK` para control de transacciones
-8. **Definición de Tablas y Relaciones**:
+
+2. **Modelado de Datos y Diseño Conceptual**:
+
+   - **Conceptos de Entidad-Relación**: Comprensión de entidades, atributos y
+     relaciones.
+   - **Creación de Diagramas Conceptuales**: Uso de mapas conceptuales y
+     diagramas entidad-relación (ERD) para visualizar la estructura de la base
+     de datos.
+   - **Identificación de Tablas Intermedias**: Implementación de relaciones
+     muchos a muchos mediante tablas intermedias (tablas de unión).
+
+3. **Definición de Tablas y Relaciones**:
+
    - Creación de tablas (`CREATE TABLE`)
    - Definición de claves primarias y foráneas (`PRIMARY KEY`, `FOREIGN KEY`)
    - Autoincremento en campos (`AUTO_INCREMENT`)
 
+4. **Manipulación de Datos**:
+
+   - Inserción de datos (`INSERT`)
+   - Actualización de datos (`UPDATE`)
+   - Eliminación de datos (`DELETE`, `TRUNCATE`)
+
+5. **Consultas Básicas**:
+
+   - Selección de datos (`SELECT`)
+   - Filtrado de registros (`WHERE`)
+   - Ordenación de datos (`ORDER BY`)
+
+6. **Conceptos de Normalización**:
+
+   - **Primera Forma Normal (1FN)**: Atributos atómicos y eliminación de valores
+     repetidos.
+   - **Segunda Forma Normal (2FN)**: Eliminación de dependencias parciales en
+     claves compuestas.
+   - **Tercera Forma Normal (3FN)**: Eliminación de dependencias transitivas
+     entre atributos no clave.
+   - **Forma Normal de Boyce-Codd (BCNF)**: Refinamiento de 3FN para manejar
+     anomalías adicionales.
+
+7. **Práctica con Datos de Ejemplo**:
+   - Inserción de múltiples registros en tablas.
+   - Verificación y validación de datos insertados.
+   - Uso de consultas para extraer y presentar información relevante.
+
 Además de los ejercicios SQL, cada carpeta de temas incluirá **imágenes y
 diagramas conceptuales** detallados de las bases de datos utilizadas, para
 facilitar la comprensión de la estructura y las relaciones entre tablas.
+
+---
 
 ## 📈 Notas
 
