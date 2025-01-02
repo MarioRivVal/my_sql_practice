@@ -12,15 +12,10 @@ El objetivo de estos ejercicios es desarrollar habilidades prácticas en SQL,
 utilizando MySQL como sistema de gestión de bases de datos, y abordar distintos
 niveles de dificultad, desde consultas básicas hasta operaciones avanzadas.
 
-¡Tienes razón! Disculpa la omisión. A continuación, actualizo el contenido
-incluyendo los conceptos de entidad-relación, cómo crear mapas conceptuales y
-las tablas intermedias.
-
 ---
 
 ## 📂 Contenido
 
-Aquí están los temas que hemos cubierto hasta ahora en el curso:
 
 1. **Gestión de Bases de Datos**:
 
@@ -84,8 +79,3 @@ repasar conceptos clave y mejorar la práctica en SQL. Los diagramas conceptuale
 y modelos de bases de datos se agregarán para visualizar las relaciones y
 estructuras de cada ejercicio, ayudando en la comprensión de cómo interactúan
 las tablas.
-
----
-
-¡Espero que encuentres útil este repositorio y que sirva de apoyo para el
-desarrollo de habilidades en SQL y MySQL!
